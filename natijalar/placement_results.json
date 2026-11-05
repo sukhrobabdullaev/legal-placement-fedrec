@@ -1,0 +1,41 @@
+{
+ "No restrictions": {
+  "cost": 9.0,
+  "plan": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ]
+ },
+ "Strict localization (PD stages on-prem)": {
+  "cost": 17.3,
+  "plan": [
+   0,
+   1,
+   1,
+   1,
+   1,
+   1,
+   0,
+   0
+  ]
+ },
+ "Conditional regime (2026 amendments)": {
+  "cost": 13.4,
+  "plan": [
+   1,
+   1,
+   2,
+   2,
+   2,
+   2,
+   1,
+   1
+  ]
+ }
+}

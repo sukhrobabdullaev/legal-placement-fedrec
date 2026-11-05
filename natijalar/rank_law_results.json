@@ -1,0 +1,109 @@
+{
+ "geometriya": {
+  "d1": 128,
+  "d2": 64
+ },
+ "seed": 7,
+ "n_rep_sweep": 150,
+ "n_rep_batafsil": 400,
+ "eps_sweep": [
+  0.25,
+  0.4139,
+  0.6852,
+  1.1343,
+  1.8779,
+  3.1088,
+  5.1467,
+  8.5203,
+  14.1055,
+  23.3517,
+  38.6589,
+  64.0
+ ],
+ "qonun_korsatkichi": {
+  "0.5": {
+   "kutilgan_korsatkich": 1.3333,
+   "olchangan_qiyalik": 1.3992,
+   "fit_R2": 0.9983,
+   "ichki_nuqtalar": 5,
+   "r_yulduz": [
+    1,
+    1,
+    2,
+    4,
+    9,
+    17,
+    33,
+    64,
+    64,
+    64,
+    64,
+    64
+   ]
+  },
+  "1.0": {
+   "kutilgan_korsatkich": 1.0,
+   "olchangan_qiyalik": 1.0179,
+   "fit_R2": 0.9993,
+   "ichki_nuqtalar": 6,
+   "r_yulduz": [
+    1,
+    1,
+    1,
+    3,
+    5,
+    8,
+    14,
+    24,
+    38,
+    64,
+    64,
+    64
+   ]
+  },
+  "2.0": {
+   "kutilgan_korsatkich": 0.6667,
+   "olchangan_qiyalik": 0.6778,
+   "fit_R2": 0.9975,
+   "ichki_nuqtalar": 9,
+   "r_yulduz": [
+    1,
+    1,
+    1,
+    2,
+    3,
+    4,
+    5,
+    8,
+    11,
+    16,
+    22,
+    31
+   ]
+  }
+ },
+ "zeta_1_batafsil": {
+  "1.0": {
+   "r_empirik": 2,
+   "tekis_soha": [
+    2
+   ],
+   "r_nazariy": 2
+  },
+  "4.0": {
+   "r_empirik": 11,
+   "tekis_soha": [
+    11
+   ],
+   "r_nazariy": 11
+  },
+  "16.0": {
+   "r_empirik": 45,
+   "tekis_soha": [
+    43,
+    45
+   ],
+   "r_nazariy": 44
+  }
+ }
+}
