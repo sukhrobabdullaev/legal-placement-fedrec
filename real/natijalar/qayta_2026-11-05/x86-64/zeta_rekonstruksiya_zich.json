@@ -1,0 +1,128 @@
+{
+ "spektr": {
+  "oxirgi_raund": {
+   "n_sv": 64,
+   "power_law_zeta": 0.0373,
+   "power_law_R2": 0.9036,
+   "eksponensial_R2": 0.6354,
+   "sv_top5": [
+    94.047,
+    29.3079,
+    21.4917,
+    13.4719,
+    12.1077
+   ],
+   "sv_nisbat_s1_s64": 23.29
+  }
+ },
+ "olchangan_zeta": 0.0373,
+ "kutilgan_korsatkich": 1.9281,
+ "olchangan_qiyalik": 2.0169,
+ "qiyalik_R2": 0.9371,
+ "ichki_nuqta": 8,
+ "eps_grid": [
+  4.0,
+  5.11,
+  6.52,
+  8.33,
+  10.64,
+  13.58,
+  17.34,
+  22.14,
+  28.28,
+  36.11,
+  46.11,
+  58.88,
+  75.18,
+  96.0
+ ],
+ "r_yulduz": [
+  1,
+  1,
+  1,
+  2,
+  3,
+  3,
+  4,
+  7,
+  18,
+  35,
+  55,
+  64,
+  64,
+  64
+ ],
+ "egri": {
+  "4.0": {
+   "r_empirik": 1,
+   "xato_min": 0.7458,
+   "xato_r1": 0.7458
+  },
+  "5.11": {
+   "r_empirik": 1,
+   "xato_min": 0.6837,
+   "xato_r1": 0.6837
+  },
+  "6.52": {
+   "r_empirik": 1,
+   "xato_min": 0.6423,
+   "xato_r1": 0.6423
+  },
+  "8.33": {
+   "r_empirik": 2,
+   "xato_min": 0.6058,
+   "xato_r1": 0.6159
+  },
+  "10.64": {
+   "r_empirik": 3,
+   "xato_min": 0.5686,
+   "xato_r1": 0.5993
+  },
+  "13.58": {
+   "r_empirik": 3,
+   "xato_min": 0.5346,
+   "xato_r1": 0.5886
+  },
+  "17.34": {
+   "r_empirik": 4,
+   "xato_min": 0.5111,
+   "xato_r1": 0.5822
+  },
+  "22.14": {
+   "r_empirik": 7,
+   "xato_min": 0.4835,
+   "xato_r1": 0.5782
+  },
+  "28.28": {
+   "r_empirik": 18,
+   "xato_min": 0.4484,
+   "xato_r1": 0.5757
+  },
+  "36.11": {
+   "r_empirik": 35,
+   "xato_min": 0.3949,
+   "xato_r1": 0.5741
+  },
+  "46.11": {
+   "r_empirik": 55,
+   "xato_min": 0.3284,
+   "xato_r1": 0.5732
+  },
+  "58.88": {
+   "r_empirik": 64,
+   "xato_min": 0.26,
+   "xato_r1": 0.5726
+  },
+  "75.18": {
+   "r_empirik": 64,
+   "xato_min": 0.2035,
+   "xato_r1": 0.5723
+  },
+  "96.0": {
+   "r_empirik": 64,
+   "xato_min": 0.1594,
+   "xato_r1": 0.572
+  }
+ },
+ "n_rep": 60
+}
