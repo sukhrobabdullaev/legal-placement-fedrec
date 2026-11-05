@@ -1,0 +1,72 @@
+{
+ "n_sorov": 400,
+ "warm": 100000,
+ "katalog": 26354,
+ "m5_har": 1,
+ "bosqichlar": {
+  "ingestion": {
+   "chaqiruv": 400,
+   "cpu_ms_sorov": 0.03088,
+   "cpu_soat_1M_sorov": 0.00858,
+   "bayt_kirish_sorov": 64.0,
+   "bayt_chiqish_sorov": 48.0,
+   "gb_chiqish_1M_sorov": 0.0447
+  },
+  "feature": {
+   "chaqiruv": 400,
+   "cpu_ms_sorov": 0.038,
+   "cpu_soat_1M_sorov": 0.01055,
+   "bayt_kirish_sorov": 48.0,
+   "bayt_chiqish_sorov": 52.5,
+   "gb_chiqish_1M_sorov": 0.0489
+  },
+  "retrieval": {
+   "chaqiruv": 400,
+   "cpu_ms_sorov": 0.00091,
+   "cpu_soat_1M_sorov": 0.00025,
+   "bayt_kirish_sorov": 52.5,
+   "bayt_chiqish_sorov": 105416.0,
+   "gb_chiqish_1M_sorov": 98.1763
+  },
+  "pre_ranking": {
+   "chaqiruv": 400,
+   "cpu_ms_sorov": 8.15766,
+   "cpu_soat_1M_sorov": 2.26602,
+   "bayt_kirish_sorov": 105416.0,
+   "bayt_chiqish_sorov": 210832.0,
+   "gb_chiqish_1M_sorov": 196.3526
+  },
+  "ranking": {
+   "chaqiruv": 400,
+   "cpu_ms_sorov": 1.99657,
+   "cpu_soat_1M_sorov": 0.5546,
+   "bayt_kirish_sorov": 210832.0,
+   "bayt_chiqish_sorov": 160.0,
+   "gb_chiqish_1M_sorov": 0.149
+  },
+  "re_ranking": {
+   "chaqiruv": 400,
+   "cpu_ms_sorov": 207.18158,
+   "cpu_soat_1M_sorov": 57.55044,
+   "bayt_kirish_sorov": 775.7,
+   "bayt_chiqish_sorov": 775.7,
+   "gb_chiqish_1M_sorov": 0.7224
+  },
+  "logging": {
+   "chaqiruv": 400,
+   "cpu_ms_sorov": 0.08096,
+   "cpu_soat_1M_sorov": 0.02249,
+   "bayt_kirish_sorov": 775.7,
+   "bayt_chiqish_sorov": 100.4,
+   "gb_chiqish_1M_sorov": 0.0935
+  },
+  "analytics": {
+   "chaqiruv": 400,
+   "cpu_ms_sorov": 0.02642,
+   "cpu_soat_1M_sorov": 0.00734,
+   "bayt_kirish_sorov": 100.4,
+   "bayt_chiqish_sorov": 36.0,
+   "gb_chiqish_1M_sorov": 0.0335
+  }
+ }
+}
