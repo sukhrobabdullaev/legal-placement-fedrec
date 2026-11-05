@@ -1,0 +1,716 @@
+{
+ "bosqichlar": [
+  "ingestion",
+  "feature",
+  "retrieval",
+  "pre_ranking",
+  "ranking",
+  "re_ranking",
+  "logging",
+  "analytics"
+ ],
+ "toifa": {
+  "ingestion": "LOKAL",
+  "feature": "LOKAL",
+  "retrieval": "SHARTLI",
+  "pre_ranking": "SHARTLI",
+  "ranking": "SHARTLI",
+  "re_ranking": "SHARTLI",
+  "logging": "LOKAL",
+  "analytics": "OCHIQ"
+ },
+ "cpu_soat_1M": {
+  "ingestion": 0.04123,
+  "feature": 0.00906,
+  "retrieval": 0.00045,
+  "pre_ranking": 2.5465,
+  "ranking": 0.58309,
+  "re_ranking": 31.09833,
+  "logging": 0.01884,
+  "analytics": 0.00237
+ },
+ "gb_chiqish_1M": {
+  "ingestion": 0.0447,
+  "feature": 0.0489,
+  "retrieval": 98.1763,
+  "pre_ranking": 196.3526,
+  "ranking": 0.149,
+  "re_ranking": 0.724,
+  "logging": 0.0935,
+  "analytics": 0.0335
+ },
+ "vcpu_narx": {
+  "L0_AQSh": 0.023972602739726026,
+  "L0_UZ": 0.007706232876712327,
+  "L1": 0.015699965223732945,
+  "L2": 0.06035
+ },
+ "senaryolar": {
+  "L0=AQSh kolokatsiya, kanal 20%": {
+   "A. Cheklovsiz": {
+    "narx_usd_1M": 0.54,
+    "reja": [
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)"
+    ],
+    "reja_id": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ]
+   },
+   "B. 2021 tahriri (keng lokalizatsiya)": {
+    "narx_usd_1M": 0.54,
+    "reja": [
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)"
+    ],
+    "reja_id": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ]
+   },
+   "C. 2026 tahriri, shlyuz YO'Q": {
+    "narx_usd_1M": 0.54,
+    "reja": [
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)"
+    ],
+    "reja_id": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ]
+   },
+   "C+. 2026 tahriri, shlyuz BOR": {
+    "narx_usd_1M": 0.54,
+    "reja": [
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)"
+    ],
+    "reja_id": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ]
+   }
+  },
+  "L0=AQSh kolokatsiya, kanal 30%": {
+   "A. Cheklovsiz": {
+    "narx_usd_1M": 0.54,
+    "reja": [
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)"
+    ],
+    "reja_id": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ]
+   },
+   "B. 2021 tahriri (keng lokalizatsiya)": {
+    "narx_usd_1M": 0.54,
+    "reja": [
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)"
+    ],
+    "reja_id": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ]
+   },
+   "C. 2026 tahriri, shlyuz YO'Q": {
+    "narx_usd_1M": 0.54,
+    "reja": [
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)"
+    ],
+    "reja_id": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ]
+   },
+   "C+. 2026 tahriri, shlyuz BOR": {
+    "narx_usd_1M": 0.54,
+    "reja": [
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)"
+    ],
+    "reja_id": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ]
+   }
+  },
+  "L0=AQSh kolokatsiya, kanal 100%": {
+   "A. Cheklovsiz": {
+    "narx_usd_1M": 0.54,
+    "reja": [
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)"
+    ],
+    "reja_id": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ]
+   },
+   "B. 2021 tahriri (keng lokalizatsiya)": {
+    "narx_usd_1M": 0.54,
+    "reja": [
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)"
+    ],
+    "reja_id": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ]
+   },
+   "C. 2026 tahriri, shlyuz YO'Q": {
+    "narx_usd_1M": 0.54,
+    "reja": [
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)"
+    ],
+    "reja_id": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ]
+   },
+   "C+. 2026 tahriri, shlyuz BOR": {
+    "narx_usd_1M": 0.54,
+    "reja": [
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)",
+     "mahalliy bulut (UZ)"
+    ],
+    "reja_id": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ]
+   }
+  },
+  "L0=UZ kolokatsiya, kanal 20%": {
+   "A. Cheklovsiz": {
+    "narx_usd_1M": 0.26,
+    "reja": [
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)"
+    ],
+    "reja_id": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "B. 2021 tahriri (keng lokalizatsiya)": {
+    "narx_usd_1M": 0.26,
+    "reja": [
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)"
+    ],
+    "reja_id": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "C. 2026 tahriri, shlyuz YO'Q": {
+    "narx_usd_1M": 0.26,
+    "reja": [
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)"
+    ],
+    "reja_id": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "C+. 2026 tahriri, shlyuz BOR": {
+    "narx_usd_1M": 0.26,
+    "reja": [
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)"
+    ],
+    "reja_id": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   }
+  },
+  "L0=UZ kolokatsiya, kanal 30%": {
+   "A. Cheklovsiz": {
+    "narx_usd_1M": 0.26,
+    "reja": [
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)"
+    ],
+    "reja_id": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "B. 2021 tahriri (keng lokalizatsiya)": {
+    "narx_usd_1M": 0.26,
+    "reja": [
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)"
+    ],
+    "reja_id": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "C. 2026 tahriri, shlyuz YO'Q": {
+    "narx_usd_1M": 0.26,
+    "reja": [
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)"
+    ],
+    "reja_id": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "C+. 2026 tahriri, shlyuz BOR": {
+    "narx_usd_1M": 0.26,
+    "reja": [
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)"
+    ],
+    "reja_id": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   }
+  },
+  "L0=UZ kolokatsiya, kanal 100%": {
+   "A. Cheklovsiz": {
+    "narx_usd_1M": 0.26,
+    "reja": [
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)"
+    ],
+    "reja_id": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "B. 2021 tahriri (keng lokalizatsiya)": {
+    "narx_usd_1M": 0.26,
+    "reja": [
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)"
+    ],
+    "reja_id": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "C. 2026 tahriri, shlyuz YO'Q": {
+    "narx_usd_1M": 0.26,
+    "reja": [
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)"
+    ],
+    "reja_id": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "C+. 2026 tahriri, shlyuz BOR": {
+    "narx_usd_1M": 0.26,
+    "reja": [
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)",
+     "o'z serveri (UZ)"
+    ],
+    "reja_id": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   }
+  }
+ },
+ "sindirish_sweep": [
+  {
+   "L2_L1_nisbat": 1.0,
+   "L2_usd_soat": 0.0157,
+   "erkin_usd_1M": 0.2643,
+   "qatiy_usd_1M": 0.2643,
+   "komplayens_foiz": 0.0
+  },
+  {
+   "L2_L1_nisbat": 0.8,
+   "L2_usd_soat": 0.01256,
+   "erkin_usd_1M": 0.2643,
+   "qatiy_usd_1M": 0.2643,
+   "komplayens_foiz": 0.0
+  },
+  {
+   "L2_L1_nisbat": 0.6,
+   "L2_usd_soat": 0.00942,
+   "erkin_usd_1M": 0.2643,
+   "qatiy_usd_1M": 0.2643,
+   "komplayens_foiz": 0.0
+  },
+  {
+   "L2_L1_nisbat": 0.5,
+   "L2_usd_soat": 0.00785,
+   "erkin_usd_1M": 0.2643,
+   "qatiy_usd_1M": 0.2643,
+   "komplayens_foiz": 0.0
+  },
+  {
+   "L2_L1_nisbat": 0.45,
+   "L2_usd_soat": 0.007065,
+   "erkin_usd_1M": 0.2423,
+   "qatiy_usd_1M": 0.2643,
+   "komplayens_foiz": 9.08
+  },
+  {
+   "L2_L1_nisbat": 0.4,
+   "L2_usd_soat": 0.00628,
+   "erkin_usd_1M": 0.2154,
+   "qatiy_usd_1M": 0.2643,
+   "komplayens_foiz": 22.71
+  },
+  {
+   "L2_L1_nisbat": 0.35,
+   "L2_usd_soat": 0.005495,
+   "erkin_usd_1M": 0.1885,
+   "qatiy_usd_1M": 0.2643,
+   "komplayens_foiz": 40.24
+  },
+  {
+   "L2_L1_nisbat": 0.3,
+   "L2_usd_soat": 0.00471,
+   "erkin_usd_1M": 0.1616,
+   "qatiy_usd_1M": 0.2643,
+   "komplayens_foiz": 63.61
+  },
+  {
+   "L2_L1_nisbat": 0.25,
+   "L2_usd_soat": 0.003925,
+   "erkin_usd_1M": 0.1346,
+   "qatiy_usd_1M": 0.2643,
+   "komplayens_foiz": 96.34
+  },
+  {
+   "L2_L1_nisbat": 0.2,
+   "L2_usd_soat": 0.00314,
+   "erkin_usd_1M": 0.1077,
+   "qatiy_usd_1M": 0.2643,
+   "komplayens_foiz": 145.42
+  },
+  {
+   "L2_L1_nisbat": 0.15,
+   "L2_usd_soat": 0.002355,
+   "erkin_usd_1M": 0.0808,
+   "qatiy_usd_1M": 0.2643,
+   "komplayens_foiz": 227.23
+  },
+  {
+   "L2_L1_nisbat": 0.1,
+   "L2_usd_soat": 0.00157,
+   "erkin_usd_1M": 0.0539,
+   "qatiy_usd_1M": 0.2643,
+   "komplayens_foiz": 390.84
+  },
+  {
+   "L2_L1_nisbat": 0.05,
+   "L2_usd_soat": 0.000785,
+   "erkin_usd_1M": 0.0269,
+   "qatiy_usd_1M": 0.2643,
+   "komplayens_foiz": 881.69
+  }
+ ],
+ "haqiqiy_L2_L1_nisbat": 3.844,
+ "m5_tasiri": {
+  "m5_bilan_usd_1M": 0.2643,
+  "m5_siz_usd_1M": 0.0247,
+  "cpu_soat_m5_bilan": 34.3,
+  "cpu_soat_m5_siz": 3.2,
+  "tejash_foiz": 90.7
+ },
+ "xulosa": "Ommaviy narxlarda komplayens narxi NOL: cheklovsiz optimum ham to'liq mamlakat ichida qoladi, chunki AWS Frankfurt UzCloud dan vCPU-soat bo'yicha 3,84 barobar QIMMAT. Komplayens narxi faqat tashqi bulut mahalliydan ~60% arzon bo'lgandagina paydo bo'ladi."
+}

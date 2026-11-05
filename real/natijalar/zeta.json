@@ -1,0 +1,60 @@
+{
+ "d": 64,
+ "epoch": 40,
+ "silo": 2000,
+ "raund": 6,
+ "n_item_upd": 2048,
+ "n_eval": 3000,
+ "asosiy_NDCG": 0.0034,
+ "alfa": 0.53902,
+ "olchangan_zeta": 0.0996,
+ "zeta_sd": 0.0321,
+ "zeta_fit_R2": 0.9074,
+ "kutilgan_korsatkich": 1.8188,
+ "olchangan_qiyalik": 0.5163,
+ "ichki_nuqta": 6,
+ "eps_sweep": {
+  "0.5": {
+   "r_empirik": 2,
+   "NDCG_max": 0.0037,
+   "NDCG_r1": 0.0023,
+   "NDCG_rD": 0.0015
+  },
+  "1.0": {
+   "r_empirik": 1,
+   "NDCG_max": 0.0051,
+   "NDCG_r1": 0.0051,
+   "NDCG_rD": 0.0026
+  },
+  "2.0": {
+   "r_empirik": 8,
+   "NDCG_max": 0.0062,
+   "NDCG_r1": 0.0051,
+   "NDCG_rD": 0.0047
+  },
+  "4.0": {
+   "r_empirik": 45,
+   "NDCG_max": 0.0066,
+   "NDCG_r1": 0.0043,
+   "NDCG_rD": 0.0048
+  },
+  "8.0": {
+   "r_empirik": 31,
+   "NDCG_max": 0.0064,
+   "NDCG_r1": 0.0047,
+   "NDCG_rD": 0.0057
+  },
+  "16.0": {
+   "r_empirik": 51,
+   "NDCG_max": 0.0062,
+   "NDCG_r1": 0.0051,
+   "NDCG_rD": 0.0055
+  },
+  "32.0": {
+   "r_empirik": 9,
+   "NDCG_max": 0.006,
+   "NDCG_r1": 0.005,
+   "NDCG_rD": 0.006
+  }
+ }
+}
