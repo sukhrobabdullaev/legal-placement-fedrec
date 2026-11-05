@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article below."
+title: "legal-placement-fedrec: reproducibility package"
+authors:
+  - family-names: Abdullaev
+    given-names: Sukhrobjon
+    affiliation: "Tashkent University of Information Technologies named after Muhammad al-Khwarizmi"
+    email: sukhrobabdullaevweb@gmail.com
+license: MIT
+repository-code: "https://github.com/sukhrobabdullaev/legal-placement-fedrec"
+date-released: 2026-11-05
+preferred-citation:
+  type: article
+  title: "Legality-Aware Placement of Recommender Pipelines and the Privacy-Compression-Utility Trade-off in Federated Update Streams under Data-Localization Law"
+  authors:
+    - family-names: Abdullaev
+      given-names: Sukhrobjon
+  year: 2026
+  notes: "Manuscript submitted for publication."

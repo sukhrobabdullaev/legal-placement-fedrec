@@ -1,0 +1,7 @@
+numpy>=1.24
+matplotlib>=3.7
+# real/run_bosqich.py, run_spektr.py, run_zeta*.py reuse the pipeline of
+# https://github.com/sukhrobabdullaev/adaptrec-routing (set MAQOLA1_REAL)
+scipy>=1.10
+scikit-learn>=1.3
+onnxruntime>=1.16
