@@ -1,0 +1,59 @@
+{
+ "rule": "per-round Proposition 1 on energies estimated from the previous release",
+ "rows": [
+  {
+   "eps_total": 2.0,
+   "auto_recall20": 0.025562913907284768,
+   "auto_rank_min": 1,
+   "auto_rank_max": 16,
+   "auto_rank_mean": 1.3,
+   "best_fixed_rank": 1,
+   "best_fixed_recall20": 0.04188741721854304
+  },
+  {
+   "eps_total": 4.0,
+   "auto_recall20": 0.05923841059602649,
+   "auto_rank_min": 1,
+   "auto_rank_max": 16,
+   "auto_rank_mean": 1.3,
+   "best_fixed_rank": 1,
+   "best_fixed_recall20": 0.06917218543046358
+  },
+  {
+   "eps_total": 8.0,
+   "auto_recall20": 0.0700662251655629,
+   "auto_rank_min": 1,
+   "auto_rank_max": 16,
+   "auto_rank_mean": 1.3,
+   "best_fixed_rank": 2,
+   "best_fixed_recall20": 0.07096026490066225
+  },
+  {
+   "eps_total": 16.0,
+   "auto_recall20": 0.0716887417218543,
+   "auto_rank_min": 1,
+   "auto_rank_max": 16,
+   "auto_rank_mean": 1.36,
+   "best_fixed_rank": 16,
+   "best_fixed_recall20": 0.08397350993377484
+  },
+  {
+   "eps_total": 32.0,
+   "auto_recall20": 0.07129139072847682,
+   "auto_rank_min": 1,
+   "auto_rank_max": 16,
+   "auto_rank_mean": 1.48,
+   "best_fixed_rank": 64,
+   "best_fixed_recall20": 0.09264900662251656
+  },
+  {
+   "eps_total": 64.0,
+   "auto_recall20": 0.07172185430463578,
+   "auto_rank_min": 1,
+   "auto_rank_max": 16,
+   "auto_rank_mean": 1.66,
+   "best_fixed_rank": 64,
+   "best_fixed_recall20": 0.0963907284768212
+  }
+ ]
+}

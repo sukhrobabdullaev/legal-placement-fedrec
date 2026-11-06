@@ -1,0 +1,92 @@
+{
+ "legal": [
+  {
+   "regime": "A. no restriction",
+   "release_as_personal_data": true,
+   "release_as_anonymised": true
+  },
+  {
+   "regime": "B. 2021 Art. 27-1 (broad reading)",
+   "release_as_personal_data": false,
+   "release_as_anonymised": true
+  },
+  {
+   "regime": "C1. 2026, EU destination on adequacy list",
+   "release_as_personal_data": true,
+   "release_as_anonymised": true
+  },
+  {
+   "regime": "C2. 2026, non-listed destination, no SCC/BCR",
+   "release_as_personal_data": false,
+   "release_as_anonymised": true
+  },
+  {
+   "regime": "C3. 2026, operator is a telecom (subscriber data)",
+   "release_as_personal_data": false,
+   "release_as_anonymised": true
+  }
+ ],
+ "schedule": [
+  {
+   "eps_total": 2.0,
+   "best_rank": 1,
+   "recall20_best": 0.04188741721854304,
+   "recall20_full_rank": 0.018642384105960263,
+   "payload_MB_per_run_best": 0.7412,
+   "payload_MB_per_run_full": 47.4368,
+   "payload_reduction_x": 64.0,
+   "uplink_cost_usd_per_run_best": 2.5694933333333334e-05
+  },
+  {
+   "eps_total": 4.0,
+   "best_rank": 1,
+   "recall20_best": 0.06917218543046358,
+   "recall20_full_rank": 0.03956953642384106,
+   "payload_MB_per_run_best": 0.7412,
+   "payload_MB_per_run_full": 47.4368,
+   "payload_reduction_x": 64.0,
+   "uplink_cost_usd_per_run_best": 2.5694933333333334e-05
+  },
+  {
+   "eps_total": 8.0,
+   "best_rank": 2,
+   "recall20_best": 0.07096026490066225,
+   "recall20_full_rank": 0.05966887417218543,
+   "payload_MB_per_run_best": 1.4824,
+   "payload_MB_per_run_full": 47.4368,
+   "payload_reduction_x": 32.0,
+   "uplink_cost_usd_per_run_best": 5.138986666666667e-05
+  },
+  {
+   "eps_total": 16.0,
+   "best_rank": 16,
+   "recall20_best": 0.08397350993377484,
+   "recall20_full_rank": 0.07986754966887417,
+   "payload_MB_per_run_best": 11.8592,
+   "payload_MB_per_run_full": 47.4368,
+   "payload_reduction_x": 4.0,
+   "uplink_cost_usd_per_run_best": 0.00041111893333333334
+  },
+  {
+   "eps_total": 32.0,
+   "best_rank": 64,
+   "recall20_best": 0.09264900662251656,
+   "recall20_full_rank": 0.09264900662251656,
+   "payload_MB_per_run_best": 47.4368,
+   "payload_MB_per_run_full": 47.4368,
+   "payload_reduction_x": 1.0,
+   "uplink_cost_usd_per_run_best": 0.0016444757333333334
+  },
+  {
+   "eps_total": 64.0,
+   "best_rank": 64,
+   "recall20_best": 0.0963907284768212,
+   "recall20_full_rank": 0.0963907284768212,
+   "payload_MB_per_run_best": 47.4368,
+   "payload_MB_per_run_full": 47.4368,
+   "payload_reduction_x": 1.0,
+   "uplink_cost_usd_per_run_best": 0.0016444757333333334
+  }
+ ],
+ "uplink_usd_per_gb": 0.034666666666666665
+}

@@ -1,0 +1,24 @@
+{
+ "delta": 1e-05,
+ "classical_underestimates_above_eps": 8.419771301524163,
+ "composition_50_rounds": {
+  "classical_per_round_4": 45.055570794288144,
+  "analytic_per_round_4": 52.77098390868004,
+  "classical_per_round_96": 10488.231344843114,
+  "analytic_per_round_96": 2996.5368571415456
+ },
+ "video_games_v1": {
+  "zeta_all": 0.03727578343388038,
+  "zeta_tail": -0.11148403254537054,
+  "top_energy_share": 0.6731721412263802,
+  "power_law_R2": 0.9036,
+  "exp_R2": 0.6354,
+  "slope": 2.0172691587332,
+  "slope_t95": [
+   1.4956022401278943,
+   2.538936077338506
+  ],
+  "n_points": 8,
+  "pred_slope": 1.928127535551867
+ }
+}
