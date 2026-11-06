@@ -11,7 +11,7 @@ repository-code: "https://github.com/sukhrobabdullaev/legal-placement-fedrec"
 date-released: 2026-11-05
 preferred-citation:
   type: article
-  title: "Legality-Aware Placement of Recommender Pipelines and the Privacy-Compression-Utility Trade-off in Federated Update Streams under Data-Localization Law"
+  title: "Legality-Aware Placement of Recommender Pipelines and Private Low-Rank Update Streams under Data-Localization Law"
   authors:
     - family-names: Abdullaev
       given-names: Sukhrobjon

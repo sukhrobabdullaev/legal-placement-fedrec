@@ -7,3 +7,5 @@ ck/
 data/
 *.jsonl.gz
 vg_*.csv
+logs/
+__pycache__/
